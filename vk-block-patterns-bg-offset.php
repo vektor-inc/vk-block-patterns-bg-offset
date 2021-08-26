@@ -12,4 +12,4 @@
  * @package         VK_BLOCK_PATTERNS_BG_OFFSET
  */
 
-include( dirname( __FILE__ ) . '/patterns-data/class-register-patterns-from-json.php' );
+require dirname( __FILE__ ) . '/patterns-data/class-register-patterns-from-json.php';
