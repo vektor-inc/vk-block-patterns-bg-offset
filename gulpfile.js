@@ -21,6 +21,6 @@ gulp.task('dist', function (done) {
 		base: './'
 	  }
 	)
-	files.pipe(gulp.dest("dist/vk-block-patterns"));
+	files.pipe(gulp.dest("dist/vk-block-patterns-bg-offset"));
 	done();
   });
